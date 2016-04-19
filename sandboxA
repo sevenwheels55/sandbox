@@ -1,17 +1,10 @@
-from bs4 import BeautifulSoup
-import pickle
-import requests
+a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+c =[]
 
-something =  input("Enter some input: ")
+for i in a:
+    if i in b:
+        if not i in c:
+            c.append(i)
 
-print("The unadulterated input: " + something)
-print("As an integer: ")
-print(int(something))
-print("As a float: ")
-print(float(something))
-print("As a boolean value: ")
-print(bool(something))
-
-print(4*"test")
-
-if
+print(c)
