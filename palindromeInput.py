@@ -29,3 +29,15 @@ if palintest:
     print(phrase, "is a palindrome.")
 else:
     print(phrase, "is not a palindrome.")
+
+# This is an alternate and more elegane version of this algorithm that was provided as an anser to the problem
+"""
+wrd=input("Please enter a word")
+wrd=str(wrd)
+rvs=wrd[::-1]
+print(rvs)
+if wrd == rvs:
+    print("This word is a palindrome")
+else:
+    print("This word is not a palindrome")
+"""
